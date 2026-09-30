@@ -1,8 +1,8 @@
 # TP1 - [Título do Trabalho Prático]
 
 ## Autor
-- **Nome:** [Seu Nome Completo]
-- **ID:** [Seu ID de Aluno]
+- **Nome:** Wu Hou Pan
+- **ID:** a109381
 - **Foto:** [Link para sua foto ou descrição]
 
 ## Resumo
