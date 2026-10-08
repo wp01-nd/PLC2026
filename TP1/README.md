@@ -3,15 +3,10 @@
 ## Autor
 - **Nome:** Wu Hou Pan
 - **ID:** a109381
-- **Foto:** [Link para sua foto ou descrição]
+- **Foto:** <img width="2448" height="3264" alt="WhatsApp Image 2026-10-08 at 14 40 42" src="https://github.com/user-attachments/assets/54e22a80-2a33-457c-af98-10e520e46395" />
 
-## Resumo
-[Adicione aqui uma descrição geral do trabalho prático. Pode ser em vários parágrafos, descrevendo:
-- Objectivos do trabalho
-- Metodologia utilizada
-- Principais resultados ou contribuições]
 
-## Lista de Resultados
-- [Link para arquivo 1]
-- [Link para arquivo 2]
-- [Link para arquivo 3]
+## ^1*(0|10)*1?$
+
+
+
