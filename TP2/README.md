@@ -10,18 +10,6 @@
 
 
 
-
-
-
-
-Resumo
-Script em Python que converte os elementos básicos de Markdown para HTML utilizando o módulo re.
-
-Lista de Resultados
-conversor.py - Script principal em Python com a implementação do conversor (markdownToHtml).
-input.md - Ficheiro de teste em Markdown.
-output.html - Ficheiro HTML gerado como resultado da conversão do input.md
-
 --------------------------------------------------------------------------------------------------------------------------
 
 
