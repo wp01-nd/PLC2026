@@ -8,22 +8,12 @@
 
 
 
-Resumo
-Construir um analisador léxico em Python para uma linguagem de query semelhante ao SPARQL. O programa lê texto do stdin e produz a lista de tokens reconhecidos, sem interpretar o seu significado.
-
-Tokens reconhecidos
-
-Token	Descrição	Exemplo
-COMENT	# até ao fim da linha (ignorado)	# comentário
-VAR	? seguido de alfanuméricos	?nome
-LANG	@ seguido de 2 letras	@en
-STRING	qualquer sequência entre aspas	"Chuck Berry"
-PR	palavras reservadas	select, where, LIMIT
-DELIM	delimitadores	{, }, .
-NUM	sequência de dígitos	1000
-CONC	conceito: alfanuméricos com : opcional	dbo:MusicalArtist, a
-ERRO	qualquer outro carater que não seja espaço	%
-Lista de Resultados
-analexico.py - Script principal em Python com a implementação do analisador léxico.
-exemplo.txt - Ficheiro de teste.
-res.txt - Ficheiro gerado com o resultado
+Token	Regex	Nota
+comentário	\#.*	ignorado
+VAR	\?\w+	?nome, ?s
+LANG	@[A-Za-z]{2}	@en
+STRING	"[^"]*"	as aspas são removidas do valor
+NUM	\d+	convertido para int
+CONCEPT	[A-Za-z_]\w*(:\w+)?	dbo:MusicalArtist, foaf:name, a
+LBRACE, RBRACE, DOT	{ } .	delimitadores
+LIMIT	—	palavra reservada
